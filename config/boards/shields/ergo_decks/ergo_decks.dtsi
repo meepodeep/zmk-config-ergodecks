@@ -1,11 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h> 
 #include <physical_layouts.dtsi>
 
-/ {
-    &physical_layout0 {
-    kscan = <&kscan0>; // Label of the kscan node this layout uses
-    transform = <&default_transform>; // Label of the matrix transform this layout uses
-    };
+/ {    
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
@@ -18,6 +14,10 @@
             , <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
 
+    };
+    &physical_layout0 {
+    kscan = <&kscan0>; // Label of the kscan node this layout uses
+    transform = <&default_transform>; // Label of the matrix transform this layout uses
     };
       default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
