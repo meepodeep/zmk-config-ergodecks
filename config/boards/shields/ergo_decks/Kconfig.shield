@@ -1,0 +1,4 @@
+config SHIELD_ERGO_DECKS_RIGHT
+    def bool $(shields_list_contains,ergo_decks_left)
+config SHIELD_ERGO_DECKS_RIGHT
+    def bool $(shields_list_contains,ergo_decks_right)

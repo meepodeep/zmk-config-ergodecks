@@ -1,0 +1,11 @@
+file_format: "1"
+id: ergo_decks
+name: ergo_decks
+type: shield
+url: https://github.com/meepodeep/zmk-config-ergodecks
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - ergo_decks_left
+  - ergo_decks_right
