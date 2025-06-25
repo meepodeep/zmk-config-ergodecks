@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h> 
-#include "my_keyboard-layouts.dtsi"
+#include "ergo_decks-layouts.dtsi"
 
 / {
     &physical_layout0 {
