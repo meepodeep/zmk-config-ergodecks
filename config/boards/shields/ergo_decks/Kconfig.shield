@@ -1,4 +1,7 @@
+# No whitespace after the comma or in your part name!
+config SHIELD_ERGO_DECKS_LEFT
+    def_bool $(shields_list_contains,ergo_decks_left)
+
+# No whitespace after the comma or in your part name!
 config SHIELD_ERGO_DECKS_RIGHT
-    def bool $(shields_list_contains,ergo_decks_left)
-config SHIELD_ERGO_DECKS_RIGHT
-    def bool $(shields_list_contains,ergo_decks_right)
+    def_bool $(shields_list_contains,ergo_decks_right)
