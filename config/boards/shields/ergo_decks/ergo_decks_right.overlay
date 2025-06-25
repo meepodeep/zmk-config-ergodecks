@@ -10,6 +10,6 @@
         , <&pro_micro 19 GPIO_ACTIVE_HIGH>
         ;
 };
-&default_transform { // Offset of 3 because the left side has 3 columns
-    col-offset = <3>;
+&default_transform { // Offset of 5 because the left side has 5 columns
+    col-offset = <5>;
 };
