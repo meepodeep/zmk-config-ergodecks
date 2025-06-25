@@ -14,7 +14,8 @@
             >;
         fn_layer {
             display-name = "Fn";
-            status = "reserved";
+            bindings = <
+            >;
         };
 
         extra1 {
