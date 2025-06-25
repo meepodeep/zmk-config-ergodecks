@@ -19,11 +19,13 @@
         };
 
         extra1 {
-            status = "reserved";
+            bindings = <
+            >;
         };
 
         extra2 {
-            status = "reserved";
+            bindings = <
+            >;
         };
         };
     };
