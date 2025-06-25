@@ -4,7 +4,6 @@
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
-    };
 
         kscan = <&kscan0>;
         transform = <&matrix_transform0>;
@@ -46,3 +45,4 @@
             , <&key_physical_attrs 100 100  770  355 (-1500)   770   455>
             ;
     };
+};
