@@ -18,7 +18,7 @@
                 &kp 1     &kp 2     &kp 3     &kp 4       &kp 5        &kp 6           &kp 7     &kp 8      &kp 9     &kp ESC
                 &trans    &trans    &trans    &trans      &trans       &trans          &trans    &trans     &kp0    &trans
                 &kp TAB   &trans    &trans    &trans      &trans       &trans          &trans    &trans     &kp SLASH &trans
-                                              &kp CTRL    &kp ALT       &studio_unlock  &kp
+                                              &kp LCTRL    &kp LALT      &studio_unlock  &kp
             >;
         };
 
