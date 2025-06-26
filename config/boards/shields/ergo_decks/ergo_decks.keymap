@@ -14,6 +14,7 @@
                 &kp Z    &kp X    &kp C    &kp V      &kp B         &kp N          &kp M    &kp COMMA &kp DOT  &mo RAISE
                                            &kp LSHIFT &kp SPACE     &studio_unlock      &kp BSPC
             >;
+        };
         fn_layer {
             display-name = "Fn";
             bindings = <
@@ -32,7 +33,6 @@
         extra2 {
             bindings = <
             >;
-        };
         };
     };
 };
