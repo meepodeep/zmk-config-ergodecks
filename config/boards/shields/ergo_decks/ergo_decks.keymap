@@ -26,13 +26,11 @@
         };
 
         extra1 {
-            bindings = <
-            >;
+           status = "reserved";
         };
 
         extra2 {
-            bindings = <
-            >;
+            status = "reserved";
         };
     };
 };
