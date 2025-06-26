@@ -1,6 +1,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+#define RAISE 1
+
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -9,7 +11,7 @@
             bindings = <
                 &kp Q    &kp W    &kp E    &kp R      &kp T         &kp Y          &kp U    &kp I     &kp O    &kp P
                 &kp A    &kp S    &kp D    &kp F      &kp G         &kp H          &kp J    &kp K     &kp L    &kp RETURN
-                &kp Z    &kp X    &kp C    &kp V      &kp B         &kp N          &kp M    &kp COMMA &kp DOT  &mo 1
+                &kp Z    &kp X    &kp C    &kp V      &kp B         &kp N          &kp M    &kp COMMA &kp DOT  &mo RAISE
                                            &kp LSHIFT &kp SPACE     &kp SPACE      &kp BSPC
             >;
         fn_layer {
@@ -18,7 +20,7 @@
                 &kp 1     &kp 2     &kp 3     &kp 4       &kp 5        &kp 6           &kp 7     &kp 8      &kp 9     &kp ESC
                 &trans    &trans    &trans    &trans      &trans       &trans          &trans    &trans     &kp 0    &trans
                 &kp TAB   &trans    &trans    &trans      &trans       &trans          &trans    &trans     &kp SLASH &trans
-                                              &kp LCTRL    &kp LALT      &studio_unlock  &kp
+                                              &kp LCTRL    &kp LALT    &studio_unlock  &kp DEL
             >;
         };
 
